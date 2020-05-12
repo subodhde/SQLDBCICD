@@ -25,7 +25,7 @@ steps:
     ArtifactName: SQL
 
 - task: SqlAzureDacpacDeployment@1
-  displayName: 'Azure SQL SqlTask'
+  displayName: 'Deployment'
   inputs:
     azureSubscription: '$(subscriptionID)'
     AuthenticationType: connectionString
